@@ -1,0 +1,25 @@
+# Build outputs
+PCbuild/obj/
+PCbuild/amd64/
+PCbuild/win32/
+PCbuild/arm64/
+PCbuild/*.log
+PCbuild/msbuild.rsp
+
+# External dependencies fetched by PCbuild/get_externals.bat
+externals/
+
+# Packaged layouts
+dist/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor/OS noise
+.vs/
+.vscode/
+*.user
+Thumbs.db
+.DS_Store
