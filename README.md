@@ -131,7 +131,7 @@ PCbuild\amd64\python.exe PC\layout -s . -b PCbuild\amd64 --arch amd64 ^
     --include-stable --include-pip --include-tcltk --include-idle --include-venv --include-dev ^
     --zip dist\python-3.12.15-windows-x64.zip
 
-PCbuild\win32\python.exe PC\layout -s . -b PCbuild\win32 --arch x86 ^
+PCbuild\win32\python.exe PC\layout -s . -b PCbuild\win32 --arch win32 ^
     --include-stable --include-pip --include-tcltk --include-idle --include-venv --include-dev ^
     --zip dist\python-3.12.15-windows-x86.zip
 ```
